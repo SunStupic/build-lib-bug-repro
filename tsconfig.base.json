@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@helloworld1812/test-components": ["libs/test-components/src/index.ts"],
+      "@helloworld1812/test-core": ["libs/test-core/src/index.ts"],
+      "@helloworld1812/test-hooks": ["libs/test-hooks/src/index.ts"],
+      "@helloworld1812/test-icons": ["libs/test-icons/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
